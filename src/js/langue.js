@@ -1,0 +1,69 @@
+export const langage = [
+    {
+        id: 'HTML5',
+        images:[
+            'html.png'
+        ]
+
+    },
+    {
+       id: 'CSS3',
+       images:[
+           'css.png'
+       ] 
+    },
+    {
+        id:'Wordpress',
+        images:[
+            "wordpress.png"
+        ]
+    },
+    {
+        id:'Figma',
+        images:[
+            'figma.png'
+        ]
+    },
+    {
+        id: 'Javascript',
+        images:[
+            'javascript.png'
+        ]
+    },
+    {
+        id: 'VueJs',
+        images:[
+            'vuejs.png'
+        ]
+    },
+    {
+        id:'MySQL',
+        images:[
+            'mysql.jpg'
+        ]
+    },
+    {
+        id:'PhpMyAdmin',
+        images:[
+            'phpmyadmin.png'
+        ]
+    },
+    {
+        id:'Php',
+        images:[
+            'php.png'
+        ]
+    },
+    {
+        id:'Symfony',
+        images:[
+            'symfony.png'
+        ]
+    },
+    {
+        id:'Docker',
+        images:[
+            'docker.jpg'
+        ]
+    }
+]
