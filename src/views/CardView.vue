@@ -29,7 +29,7 @@ body {
 }
 .card {
   display: grid;
-  grid-template-areas: "image" "text";
+  grid-template-areas:"text";
   border-radius: 15px;
   background: #8292e5;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
@@ -37,14 +37,7 @@ body {
   width: 50%;
   text-align: center;
   margin: 30px;
-  padding-right: 50px;
   margin-left: 450px;
-}
-.card-image {
-  grid-area: image;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-size: cover;
 }
 </style>
 
