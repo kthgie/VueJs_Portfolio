@@ -1,69 +1,42 @@
 export const langage = [
     {
-        id: 'HTML5',
-        images:[
-            'html.png'
-        ]
+        id: 'HTML5'
 
     },
     {
-       id: 'CSS3',
-       images:[
-           'css.png'
-       ] 
+       id: 'CSS3'
     },
     {
-        id:'Wordpress',
-        images:[
-            "wordpress.png"
-        ]
+        id:'Wordpress'
+        
     },
     {
-        id:'Figma',
-        images:[
-            'figma.png'
-        ]
+        id:'Figma'
+        
     },
     {
-        id: 'Javascript',
-        images:[
-            'javascript.png'
-        ]
+        id: 'Javascript'
     },
     {
-        id: 'VueJs',
-        images:[
-            'vuejs.png'
-        ]
+        id: 'VueJs'
     },
     {
-        id:'MySQL',
-        images:[
-            'mysql.jpg'
-        ]
+        id:'MySQL'
+
     },
     {
-        id:'PhpMyAdmin',
-        images:[
-            'phpmyadmin.png'
-        ]
+        id:'PhpMyAdmin'
+        
     },
     {
-        id:'Php',
-        images:[
-            'php.png'
-        ]
+        id:'Php'
+
     },
     {
-        id:'Symfony',
-        images:[
-            'symfony.png'
-        ]
+        id:'Symfony'
+        
     },
     {
-        id:'Docker',
-        images:[
-            'docker.jpg'
-        ]
+        id:'Docker'
     }
 ]

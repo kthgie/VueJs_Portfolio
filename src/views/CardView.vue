@@ -1,14 +1,14 @@
 <template>
     <div class="card">
       <ul class="liste" v-for="langages in langage" :key="langages.id">
-        <li>{{ langages.id }}  {{langages.images}}</li>
-        
+        <li>{{ langages.id }} </li>
       </ul>
     </div>
   
 </template>
 <script>
 import { langage } from "@/js/langue";
+
 export default {
     name: 'CardView',
   components: {
@@ -16,7 +16,7 @@ export default {
   },
 data: () => ({
   langage: langage,
-})
+}),
 }
 </script>
 
@@ -31,11 +31,14 @@ body {
   display: grid;
   grid-template-areas: "image" "text";
   border-radius: 15px;
-  background: white;
+  background: #8292e5;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   font-family: 'Light 300 italic';
+  width: 50%;
   text-align: center;
   margin: 30px;
+  padding-right: 50px;
+  margin-left: 450px;
 }
 .card-image {
   grid-area: image;
