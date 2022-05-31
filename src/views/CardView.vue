@@ -37,7 +37,8 @@ body {
   width: 50%;
   text-align: center;
   margin: 30px;
-  margin-left: 450px;
+  margin-left: 26%;
 }
+
 </style>
 
