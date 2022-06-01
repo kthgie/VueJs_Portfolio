@@ -14,15 +14,13 @@
     <div class="card">
       <card-view />
     </div>
-    <div>
-    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import { langage } from "@/js/langue";
-import CardView from "./CardView.vue";
+import { langages } from "@/js/langues";
+import CardView from "@/components/CardView.vue";
 
 export default {
   name: "HomeView",
@@ -30,7 +28,7 @@ export default {
     CardView,
   },
   data: () => ({
-    langage: langage,
+    langages,
   }),
 };
 </script>
@@ -58,7 +56,6 @@ body {
 .cours {
   margin-top: 150px;
   text-decoration: underline;
-  
 }
 
 .photo {
